@@ -1,23 +1,23 @@
-.resume-card { width: min(100%, 570px); padding: 32px; background: #fffefa; border: 1px solid #e8e6dc; border-radius: 8px; box-shadow: 0 24px 70px rgba(47, 48, 37, .08); }
-.resume-topline { display: flex; align-items: center; justify-content: space-between; padding-bottom: 19px; border-bottom: 1px solid #eeede7; }
+.resume-card { width: min(100%, 570px); padding: 28px; background: #fff; border: 1px solid #d5deea; border-radius: 8px; box-shadow: 0 5px 18px rgba(36, 54, 78, .08); }
+.resume-topline { display: flex; align-items: center; justify-content: space-between; padding-bottom: 17px; border-bottom: 1px solid #e3eaf2; }
 .resume-mark, .resume-availability, .resume-kicker, .resume-label { font-size: 9px; font-weight: 600; letter-spacing: .13em; }
-.resume-mark { color: #747a68; }
-.resume-availability { display: flex; align-items: center; gap: 7px; color: #8b8d82; font-size: 8px; }
-.resume-availability i { width: 6px; height: 6px; border-radius: 50%; background: #8b9a7c; }
+.resume-mark { color: #3868a8; }
+.resume-availability { display: flex; align-items: center; gap: 7px; color: #64748b; font-size: 9px; }
+.resume-availability i { width: 7px; height: 7px; border-radius: 50%; background: #67a779; }
 .resume-profile { display: flex; align-items: center; gap: 20px; padding: 28px 0 23px; }
-.resume-avatar { display: grid; place-items: center; flex: 0 0 82px; height: 82px; border-radius: 50%; color: #f9f8f1; background: #7d8872; font-family: 'Playfair Display', serif; font-size: 23px; font-style: italic; }
-.resume-kicker { margin: 0 0 5px; color: #9a9a90; }
-.resume-profile h1 { margin: 0; font-family: 'Playfair Display', serif; font-size: clamp(26px, 6vw, 34px); font-weight: 500; letter-spacing: -.04em; }
-.resume-role { margin: 6px 0 0; color: #7d8872; font-size: 13px; }
-.resume-section { padding: 17px 0 15px; border-top: 1px solid #eeede7; }
-.resume-section h2 { margin: 0 0 9px; font-size: 11px; font-weight: 600; }
-.resume-section p { max-width: 460px; margin: 0; color: #77796f; font-size: 12px; line-height: 1.8; }
+.resume-avatar { display: grid; place-items: center; flex: 0 0 82px; height: 82px; border-radius: 8px; color: #fff; background: #5184c5; font-size: 22px; font-weight: 700; }
+.resume-kicker { margin: 0 0 5px; color: #64748b; }
+.resume-profile h1 { margin: 0; color: #263449; font-size: clamp(25px, 6vw, 32px); font-weight: 700; }
+.resume-role { margin: 6px 0 0; color: #3868a8; font-size: 14px; }
+.resume-section { padding: 16px 0 14px; border-top: 1px solid #e3eaf2; }
+.resume-section h2 { margin: 0 0 9px; color: #263449; font-size: 13px; font-weight: 700; }
+.resume-section p { max-width: 460px; margin: 0; color: #596579; font-size: 13px; line-height: 1.7; }
 .skill-list { display: flex; flex-wrap: wrap; gap: 7px; margin: 0; padding: 0; list-style: none; }
-.skill-list li { padding: 7px 10px; color: #606653; background: #f0f1e9; border-radius: 2px; font-size: 10px; }
-.resume-bottom { display: flex; align-items: flex-end; gap: 26px; padding-top: 19px; margin-top: 3px; border-top: 1px solid #eeede7; }
+.skill-list li { padding: 7px 10px; color: #315b91; background: #eaf1fa; border-radius: 4px; font-size: 11px; }
+.resume-bottom { display: flex; align-items: flex-end; gap: 26px; padding-top: 18px; margin-top: 3px; border-top: 1px solid #e3eaf2; }
 .resume-bottom > div { display: grid; gap: 5px; }
-.resume-label { color: #9a9a90; font-size: 8px; }
-.resume-bottom strong { font-size: 11px; font-weight: 500; }
-.resume-contact { display: inline-flex; align-items: center; gap: 9px; margin-left: auto; padding: 11px 14px; color: #f9f8f1; background: #363a30; font-size: 10px; transition: background .2s; }
-.resume-contact:hover { background: #59614f; }
+.resume-label { color: #64748b; font-size: 9px; }
+.resume-bottom strong { font-size: 11px; font-weight: 600; }
+.resume-contact { display: inline-flex; align-items: center; gap: 9px; margin-left: auto; padding: 11px 14px; color: #fff; background: #3868a8; border-radius: 4px; font-size: 11px; transition: background .2s; }
+.resume-contact:hover { background: #2d568c; }
 @media (max-width: 440px) { .resume-card { padding: 23px 19px; } .resume-topline { align-items: flex-start; gap: 10px; } .resume-availability { font-size: 7px; } .resume-profile { gap: 14px; } .resume-avatar { flex-basis: 66px; height: 66px; } .resume-bottom { gap: 16px; } .resume-contact { padding: 10px; } }
